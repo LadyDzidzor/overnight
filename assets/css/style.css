@@ -81,10 +81,12 @@ body {
 	-moz-font-smoothing: antialiased;
 }
 /* .image-layer{
+	
+	background-image:url("assets/images/img1.jpg");
+	height: 100%;
 	width: 50%;
-	height: 300px;
-	background-image:url(assets/images/img3.jpg);
 } */
+
 
 .bordered-layout .page-wrapper{
 	padding:0px 50px 0px;
@@ -641,7 +643,7 @@ img{
 	top:-1px;
 	border-radius:50px;
 	display:inline-block;
-	background-color:#ddd8eb;
+	background-color:rgba(0, 0, 0, 0.144);
 }
 
 .sec-title .separate:before{
@@ -664,7 +666,7 @@ img{
 }
 
 .sec-title.style-two .separate:before{
-	background-color:#32297b;
+	background-color:#000;
 }
 
 @-webkit-keyframes animateCloud {
@@ -893,7 +895,7 @@ img{
 
 .main-header .btn-box .contact-btn{
 	position:relative;
-	color:#32297b;
+	color:#000;
 	font-size:18px;
 	padding:14px 29px;
 	font-weight:600;
@@ -2830,7 +2832,7 @@ img{
 .fact-counter .column .inner .count-outer{
 	position:relative;
 	font-weight:500;
-	color:#32297b;
+	color:#f8ba18;
 	font-size:64px;
 	line-height:1em;
 }
@@ -2934,7 +2936,7 @@ img{
 	height:100%;
 	opacity:0;
 	border-radius:12px;
-	background-color:#f8f5fd;
+	background-color:#faf5e9;
 	transition: all 900ms ease;
     -moz-transition: all 900ms ease;
     -webkit-transition: all 900ms ease;
@@ -2951,14 +2953,14 @@ img{
 	position:relative;
 	width:100px;
 	height:100px;
-	color:#32297b;
+	color:#f8ba18;
 	font-size:48px;
 	line-height:96px;
 	text-align:center;
 	overflow:hidden;
 	border-radius:25px;
 	display:inline-block;
-	border:2px solid #e8e0f5;
+	border:2px solid #f8ba18;
 	transition: all 600ms ease;
     -moz-transition: all 600ms ease;
     -webkit-transition: all 600ms ease;
@@ -2972,7 +2974,7 @@ img{
 
 .service-block .inner-box:hover .icon-box{
 	color:#ffffff;
-	border-color:#32297b;
+	border-color:#f8ba18;
 }
 
 .service-block .inner-box .icon-box:before{
@@ -2983,7 +2985,7 @@ img{
 	right:0px;
 	bottom:0px;
 	opacity:0;
-	background-color:#32297b;
+	background-color:#f8ba18;
 	transform:scale(0.4,0.4);
 	transition: all 600ms ease;
     -moz-transition: all 600ms ease;
@@ -3471,7 +3473,7 @@ img{
 .contact-section{
 	position:relative;
 	padding:120px 0px 60px;
-	background-color:#32297b;
+	background-color:#000;
 	background-position:left top;
 	background-repeat:repeat-x;
 }
