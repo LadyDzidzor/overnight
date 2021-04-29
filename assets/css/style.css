@@ -87,6 +87,27 @@ body {
 	width: 50%;
 } */
 
+.logo{
+		position:absolute;
+	width:194px;
+	height:63px;
+	z-index:10000;
+	left:121px;
+	
+	/* background:url('../images/logos/ACE-it.png') no-repeat center center; */
+	/* background-size:146px 80px; */
+	background-size:94px 91px;
+}
+@media only screen and (max-width: 800px) {
+    .logo{
+	width:150px;
+	height:70px;
+	left:10px;
+	top:10px;
+	/* background:url('../images/logo.png') no-repeat center center; */
+	background-size:70px 73px;
+}
+  }
 
 .bordered-layout .page-wrapper{
 	padding:0px 50px 0px;
@@ -350,13 +371,13 @@ img{
 	display: inline-block;
 	font-size: 14px;
 	line-height: 30px;
-	color: #32297b;
+	color: rgba(0, 0, 0, 0.555);
 	padding: 12px 34px;
 	font-weight: 500;
 	overflow: hidden;
 	border-radius:50px;
 	background-color:#ffffff;
-	border:2px solid #e8e0f5;
+	border:2px solid #fff;
 	text-transform: uppercase;
 	font-family: 'Work Sans', sans-serif;
 }
